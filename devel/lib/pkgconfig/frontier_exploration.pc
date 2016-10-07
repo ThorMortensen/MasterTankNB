@@ -1,0 +1,8 @@
+prefix=/home/thor/Dropbox/DTU_5_sem/Ros/MasterTank/devel
+
+Name: frontier_exploration
+Description: Description of frontier_exploration
+Version: 0.3.0
+Cflags: -I/home/thor/Dropbox/DTU_5_sem/Ros/MasterTank/devel/include -I/home/thor/Dropbox/DTU_5_sem/Ros/MasterTank/src/frontier_exploration/include -I/usr/local/include/pcl-1.8 -I/usr/include/eigen3 -I/usr/include
+Libs: -L/home/thor/Dropbox/DTU_5_sem/Ros/MasterTank/devel/lib -lexplore_costmap -l:/usr/local/lib/libpcl_common.so -l:/usr/lib/x86_64-linux-gnu/libboost_system.so -l:/usr/lib/x86_64-linux-gnu/libboost_filesystem.so -l:/usr/lib/x86_64-linux-gnu/libboost_thread.so -l:/usr/lib/x86_64-linux-gnu/libboost_date_time.so -l:/usr/lib/x86_64-linux-gnu/libboost_iostreams.so -l:/usr/lib/x86_64-linux-gnu/libboost_serialization.so -l:/usr/lib/x86_64-linux-gnu/libboost_chrono.so -l:/usr/lib/x86_64-linux-gnu/libboost_atomic.so -l:/usr/lib/x86_64-linux-gnu/libboost_regex.so -l:/usr/lib/x86_64-linux-gnu/libpthread.so
+Requires: costmap_2d dynamic_reconfigure geometry_msgs roscpp tf actionlib

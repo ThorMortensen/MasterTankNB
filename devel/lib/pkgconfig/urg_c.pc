@@ -1,0 +1,8 @@
+prefix=/home/thor/Dropbox/DTU_5_sem/Ros/MasterTank/devel
+
+Name: urg_c
+Description: Description of urg_c
+Version: 1.0.404
+Cflags: -I/home/thor/Dropbox/DTU_5_sem/Ros/MasterTank/src/urg_c/current/include
+Libs: -L/home/thor/Dropbox/DTU_5_sem/Ros/MasterTank/devel/lib -lliburg_c
+Requires: 

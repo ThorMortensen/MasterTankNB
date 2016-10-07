@@ -1,0 +1,8 @@
+prefix=/home/thor/Dropbox/DTU_5_sem/Ros/MasterTank/devel
+
+Name: driver_base
+Description: Description of driver_base
+Version: 1.6.8
+Cflags: -I/home/thor/Dropbox/DTU_5_sem/Ros/MasterTank/devel/include -I/home/thor/Dropbox/DTU_5_sem/Ros/MasterTank/src/driver_common/driver_base/include -I/usr/include
+Libs: -L/home/thor/Dropbox/DTU_5_sem/Ros/MasterTank/devel/lib 
+Requires: message_runtime std_msgs

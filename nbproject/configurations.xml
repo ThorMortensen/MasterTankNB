@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="build">
+        <df name="CMakeFiles">
+          <df name="3.5.1">
+            <df name="CompilerIdC">
+              <in>CMakeCCompilerId.c</in>
+            </df>
+            <df name="CompilerIdCXX">
+              <in>CMakeCXXCompilerId.cpp</in>
+            </df>
+          </df>
+          <in>feature_tests.c</in>
+          <in>feature_tests.cxx</in>
+        </df>
+      </df>
+      <df name="devel">
+        <df name="include">
+          <df name="driver_base">
+            <in>ConfigString.h</in>
+            <in>ConfigValue.h</in>
+            <in>SensorLevels.h</in>
+          </df>
+          <df name="frontier_exploration">
+            <in>ExploreTaskAction.h</in>
+            <in>ExploreTaskActionFeedback.h</in>
+            <in>ExploreTaskActionGoal.h</in>
+            <in>ExploreTaskActionResult.h</in>
+            <in>ExploreTaskFeedback.h</in>
+            <in>ExploreTaskGoal.h</in>
+            <in>ExploreTaskResult.h</in>
+            <in>Frontier.h</in>
+            <in>GetNextFrontier.h</in>
+            <in>GetNextFrontierRequest.h</in>
+            <in>GetNextFrontierResponse.h</in>
+            <in>UpdateBoundaryPolygon.h</in>
+            <in>UpdateBoundaryPolygonRequest.h</in>
+            <in>UpdateBoundaryPolygonResponse.h</in>
+          </df>
+          <df name="hokuyo_node">
+            <in>HokuyoConfig.h</in>
+          </df>
+          <df name="urg_node">
+            <in>URGConfig.h</in>
+          </df>
+        </df>
+      </df>
+      <df name="src">
+        <df name="driver_common">
+          <df name="driver_base">
+            <df name="include">
+              <df name="driver_base">
+                <in>driver.h</in>
+                <in>driver_node.h</in>
+              </df>
+            </df>
+          </df>
+          <df name="timestamp_tools">
+            <df name="include">
+              <df name="timestamp_tools">
+                <in>periodic_timestamp_min_filter.h</in>
+                <in>trigger_matcher.h</in>
+              </df>
+            </df>
+            <df name="test">
+              <in>test_trigger_matcher.cpp</in>
+            </df>
+          </df>
+        </df>
+        <df name="frontier_exploration">
+          <df name="include">
+            <df name="frontier_exploration">
+              <in>bounded_explore_layer.h</in>
+              <in>costmap_tools.h</in>
+              <in>frontier_search.h</in>
+              <in>geometry_tools.h</in>
+            </df>
+          </df>
+          <df name="plugins">
+            <in>bounded_explore_layer.cpp</in>
+          </df>
+          <df name="src">
+            <df name="test">
+              <in>costmap_tools_tests.cpp</in>
+              <in>frontier_search_tests.cpp</in>
+              <in>geometry_tools_tests.cpp</in>
+            </df>
+            <in>explore_client.cpp</in>
+            <in>explore_server.cpp</in>
+            <in>frontier_search.cpp</in>
+          </df>
+        </df>
+        <df name="hokuyo_node">
+          <df name="CMakeFiles">
+            <df name="2.8.12.2">
+              <df name="CompilerIdC">
+                <in>CMakeCCompilerId.c</in>
+              </df>
+              <df name="CompilerIdCXX">
+                <in>CMakeCXXCompilerId.cpp</in>
+              </df>
+            </df>
+          </df>
+          <df name="include">
+            <df name="hokuyo_node">
+              <in>hokuyo.h</in>
+            </df>
+          </df>
+          <df name="src">
+            <in>getFirmwareVersion.cpp</in>
+            <in>getID.cpp</in>
+            <in>hokuyo.cpp</in>
+            <in>hokuyo_node.cpp</in>
+            <in>timestamp_test.cpp</in>
+          </df>
+        </df>
+        <df name="masterTankNavigation">
+          <df name="include">
+            <df name="frontier_exploration">
+              <in>ExploreTaskAction.h</in>
+              <in>ExploreTaskActionFeedback.h</in>
+              <in>ExploreTaskActionGoal.h</in>
+              <in>ExploreTaskActionResult.h</in>
+              <in>ExploreTaskFeedback.h</in>
+              <in>ExploreTaskGoal.h</in>
+              <in>ExploreTaskResult.h</in>
+              <in>Frontier.h</in>
+              <in>GetNextFrontier.h</in>
+              <in>GetNextFrontierRequest.h</in>
+              <in>GetNextFrontierResponse.h</in>
+              <in>UpdateBoundaryPolygon.h</in>
+              <in>UpdateBoundaryPolygonRequest.h</in>
+              <in>UpdateBoundaryPolygonResponse.h</in>
+              <in>bounded_explore_layer.h</in>
+              <in>costmap_tools.h</in>
+              <in>frontier_search.h</in>
+              <in>geometry_tools.h</in>
+            </df>
+            <in>MasterTankExplore.h</in>
+            <in>MasterTankMain.h</in>
+            <in>MasterTankMarch.h</in>
+            <in>MasterTankMood.h</in>
+            <in>MasterTankObjectPlotter.h</in>
+            <in>masterTankCommon.h</in>
+            <in>mianTest.h</in>
+          </df>
+          <df name="src">
+            <in>MasterTankExplore.cpp</in>
+            <in>MasterTankMain.cpp</in>
+            <in>MasterTankMarch.cpp</in>
+            <in>MasterTankMood.cpp</in>
+            <in>MasterTankObjectPlotter.cpp</in>
+            <in>mianTest.cpp</in>
+          </df>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+        <resolveSymbolicLinks>true</resolveSymbolicLinks>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>/home/thor/Dropbox/DTU_5_sem/Ros/MasterTank/ckb.sh</buildCommand>
+          <cleanCommand>catkin_make.sh</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand>devel/setup.sh</preBuildCommand>
+          <preBuildFirst>true</preBuildFirst>
+        </preBuild>
+      </makefileType>
+      <item path="build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="build/CMakeFiles/feature_tests.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="build/CMakeFiles/feature_tests.cxx" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="devel/include/driver_base/ConfigString.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="devel/include/driver_base/ConfigValue.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="devel/include/driver_base/SensorLevels.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="devel/include/frontier_exploration/ExploreTaskAction.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="devel/include/frontier_exploration/ExploreTaskActionFeedback.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="devel/include/frontier_exploration/ExploreTaskActionGoal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="devel/include/frontier_exploration/ExploreTaskActionResult.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="devel/include/frontier_exploration/ExploreTaskFeedback.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="devel/include/frontier_exploration/ExploreTaskGoal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="devel/include/frontier_exploration/ExploreTaskResult.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="devel/include/frontier_exploration/Frontier.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="devel/include/frontier_exploration/GetNextFrontier.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="devel/include/frontier_exploration/GetNextFrontierRequest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="devel/include/frontier_exploration/GetNextFrontierResponse.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="devel/include/frontier_exploration/UpdateBoundaryPolygon.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="devel/include/frontier_exploration/UpdateBoundaryPolygonRequest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="devel/include/frontier_exploration/UpdateBoundaryPolygonResponse.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="devel/include/hokuyo_node/HokuyoConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="devel/include/urg_node/URGConfig.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/driver_common/driver_base/include/driver_base/driver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/driver_common/driver_base/include/driver_base/driver_node.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/driver_common/timestamp_tools/include/timestamp_tools/periodic_timestamp_min_filter.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/driver_common/timestamp_tools/include/timestamp_tools/trigger_matcher.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/driver_common/timestamp_tools/test/test_trigger_matcher.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/frontier_exploration/include/frontier_exploration/bounded_explore_layer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/frontier_exploration/include/frontier_exploration/costmap_tools.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/frontier_exploration/include/frontier_exploration/frontier_search.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/frontier_exploration/include/frontier_exploration/geometry_tools.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/frontier_exploration/plugins/bounded_explore_layer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/frontier_exploration/src/explore_client.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/frontier_exploration/src/explore_server.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/frontier_exploration/src/frontier_search.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/frontier_exploration/src/test/costmap_tools_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/frontier_exploration/src/test/frontier_search_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/frontier_exploration/src/test/geometry_tools_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/hokuyo_node/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/hokuyo_node/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/hokuyo_node/include/hokuyo_node/hokuyo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/hokuyo_node/src/getFirmwareVersion.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/hokuyo_node/src/getID.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/hokuyo_node/src/hokuyo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/hokuyo_node/src/hokuyo_node.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/hokuyo_node/src/timestamp_test.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/MasterTankExplore.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/MasterTankMain.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/MasterTankMarch.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/MasterTankMood.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/MasterTankObjectPlotter.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/frontier_exploration/ExploreTaskAction.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/frontier_exploration/ExploreTaskActionFeedback.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/frontier_exploration/ExploreTaskActionGoal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/frontier_exploration/ExploreTaskActionResult.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/frontier_exploration/ExploreTaskFeedback.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/frontier_exploration/ExploreTaskGoal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/frontier_exploration/ExploreTaskResult.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/frontier_exploration/Frontier.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/frontier_exploration/GetNextFrontier.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/frontier_exploration/GetNextFrontierRequest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/frontier_exploration/GetNextFrontierResponse.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/frontier_exploration/UpdateBoundaryPolygon.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/frontier_exploration/UpdateBoundaryPolygonRequest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/frontier_exploration/UpdateBoundaryPolygonResponse.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/frontier_exploration/bounded_explore_layer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/frontier_exploration/costmap_tools.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/frontier_exploration/frontier_search.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/frontier_exploration/geometry_tools.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/masterTankCommon.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/include/mianTest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/src/MasterTankExplore.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/src/MasterTankMain.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/src/MasterTankMarch.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/src/MasterTankMood.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/src/MasterTankObjectPlotter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/masterTankNavigation/src/mianTest.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
